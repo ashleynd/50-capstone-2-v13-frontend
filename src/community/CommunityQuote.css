@@ -1,0 +1,65 @@
+/* .Color {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: black 0 0 15px;
+  }
+  
+  .Color a {
+    color: white;
+  } */
+
+  .goback {
+    color: #E1EAF4;
+    margin-top: 40px;
+    text-decoration: none;
+  }
+
+  .quotetext {
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .button-text {
+    text-decoration: none;
+  }
+
+.thoughtBubble {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    padding: 50px;
+    border-radius: 70px;
+    text-decoration: none;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.thoughtBubble:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 4.5em;
+	border: .75rem solid transparent;
+	border-top: none;
+  text-decoration: none;
+	border-bottom-color: #eff1f7;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+.randomquote {
+	font-size: 18px;
+}
+.randomauthor {
+	font-size: 14px;
+}

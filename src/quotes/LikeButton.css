@@ -1,0 +1,15 @@
+.Mode-unlike {
+    color: white;
+    background-color: #7c55ff;
+    border: 2px solid #744aff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Mode-like {
+    color: grey;
+    background-color: #b19afd;
+    border: 2px solid #b19afd;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}

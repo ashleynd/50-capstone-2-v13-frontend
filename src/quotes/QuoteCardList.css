@@ -1,0 +1,20 @@
+.test-row {
+    margin: 0 -5px;
+}
+
+.test-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 900px;
+}
+.row {
+    width: 900px;
+}
+.column {
+    width: 600px;
+}
+

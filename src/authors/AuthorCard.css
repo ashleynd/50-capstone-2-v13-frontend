@@ -1,0 +1,25 @@
+.AuthorCard-authors {
+  max-height: 250px;
+  margin-bottom: 1rem;
+  right: 10%;
+  color: inherit;
+  border-radius: 0;
+  border: none;
+  width: 700px;
+  height: 100px;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.AuthorCard-authors img {
+  width: 50px;
+}
+
+.AuthorCard-authors:hover { /* <Card /> that is also <Link /> */
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-title-authors {
+  font-size: 1.7rem;
+}

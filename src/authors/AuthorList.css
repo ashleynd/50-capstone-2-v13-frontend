@@ -1,0 +1,18 @@
+.comm-card {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 300px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.comm-card-list {
+    margin: 130px;
+}

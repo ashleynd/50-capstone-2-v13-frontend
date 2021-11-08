@@ -1,0 +1,30 @@
+.NewCommunityQuote {
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(to right, red, orange, yellow, green, rgb(239, 245, 245), blue, violet); */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .NewCommunityQuote form {
+    margin-top: -200px;
+    width: 50%;
+    height: 250px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border-radius: 12px;
+  }
+  
+  .NewCommunityQuote form div {
+    padding: 15px;
+  }
+
+  .input-field {
+    height: 33px;
+    width: 600px;
+  }

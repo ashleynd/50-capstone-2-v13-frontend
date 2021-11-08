@@ -1,0 +1,60 @@
+.thoughtBubble {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    padding: 50px;
+    border-radius: 70px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.thoughtBubble:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 4.5em;
+	border: .75rem solid transparent;
+	border-top: none;
+	border-bottom-color: #eff1f7;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+.randomquote {
+	font-size: 18px;
+}
+.randomauthor {
+	font-size: 14px;
+}
+
+.source-btn {
+	font-size: 12px;
+	margin: 50px;
+	color: grey;
+    background-color: #9676ff;
+    border: 2px solid #9676ff;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); */
+	color: white;
+    /* background-color: #7c55ff; */
+    /* border: 2px solid #744aff; */
+    /* border-radius: 5px; */
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.source-btn:hover {
+	font-size: 12px;
+	margin: 50px;
+	color: grey;
+    /* background-color: #b19afd; */
+    /* border: 2px solid #b19afd; */
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	color: white;
+    background-color: #7c55ff;
+    border: 2px solid #744aff;
+    /* border-radius: 5px; */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
