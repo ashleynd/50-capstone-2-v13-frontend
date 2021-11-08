@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./CommunityQuote.css";
 
+const linkStyle = {
+  padding: 5,
+  textDecoration: "none",
+  color: 'white',
+  size: 3.5,
+};
 class CommunityQuote extends Component {
   constructor(props) {
     super(props);
@@ -19,7 +25,7 @@ class CommunityQuote extends Component {
         </div>
         <button className="goback">
         <p className="button-text">
-          <Link to="/">Go back</Link>
+          <Link to="/" style={linkStyle}>Go back</Link>
         </p>
         </button>
       </div>

@@ -47,6 +47,7 @@ function ProfileLikes() {
           <li className="favorite-list">{JSON.stringify(likedquote[6])}</li>
           <li className="favorite-list">{JSON.stringify(likedquote[7])}</li>
           <li className="favorite-list">{JSON.stringify(likedquote[8])}</li>
+          <li className="favorite-list">{JSON.stringify(likedquote[289])}</li>
         </ul>
       </div>
   );
