@@ -23,10 +23,10 @@ function Homepage() {
         <div className="container text-center">
           <h1 className="headline">Quotable</h1>
           {/* <p className="lead">Browse quotes from popular authors.</p> */}
-          <p className="lead">Join or login to view and like more famous quotes, and post your own quotes.</p>
+          <p className="lead">Browse or favorite famous quotes from over 100 authors, or post your own quotes.</p>
           {currentUser
               ? <h2>
-                Welcome Back, {currentUser.firstName || currentUser.username}!
+                Welcome {currentUser.firstName || currentUser.username}!
                 {/* <RandomQuote /> */}
               </h2>
               : (

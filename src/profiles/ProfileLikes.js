@@ -32,13 +32,19 @@ function ProfileLikes() {
     }
     getLikedQuote(username);
   }, [username]);
-
+  
   if (!likedquote) return <LoadingSpinner />;
+  // console.log(likedquote);
 
-  return (
+  // const makeLike = likedQuote => likedQuote;
+  // const likedQuoteArray = [likedquote];
+  // const likedArray = likedQuoteArray.map(makeLike);
+  // console.log(likedArray[0]);
+
+    return (
       <div>
-        <ul>
-          <li className="favorite-list">{JSON.stringify(likedquote[0])}</li>
+          <ul>
+            {/* <li className="favorite-list">{likedquote}</li> */}
           <li className="favorite-list">{JSON.stringify(likedquote[1])}</li>
           <li className="favorite-list">{JSON.stringify(likedquote[2])}</li>
           <li className="favorite-list">{JSON.stringify(likedquote[3])}</li>
@@ -407,20 +413,34 @@ function ProfileLikes() {
           <li className="favorite-list">{JSON.stringify(likedquote[362])}</li>
           <li className="favorite-list">{JSON.stringify(likedquote[363])}</li>
           <li className="favorite-list">{JSON.stringify(likedquote[364])}</li>
-        </ul>
-      </div>
-  );
-}
+          </ul>
+        </div>
+  );  
+  }
 
 export default ProfileLikes;
 
-// var str = '{"title":"Some people feel the rain. Others just get wet."}';
-// var str = '{"title":"All our dreams can come true, if we have the courage to pursue them."}';
-// var str = '{"title":"Better to die fighting for freedom then be a prisoner all the days of your life."}';
-// var str = '{"title":"When one door closes another door opens."}';
+
+
+
+// var str = '{"title":"Well-behaved women seldom make history."}';
 // var result = str.replace('"title','').replace('{','').replace('}','').replace('"','').replace(':','');
 // console.log(result);
 
+// https://stackoverflow.com/questions/45904293/how-to-use-map-function-on-jsonarray-in-reactjs-es6
+// var str = '[{"file_id": 5224879255191552, "filename": "children_walk_friends_forest_116878_3840x2160.jpg", "file_path": "/api/files/encoded_gs_file%3AdHJhY2tpbmctYXBpL3YxL2FjY291bnRzLzU2Mjk0OTk1MzQyMTMxMjAvdGFza3MvNDk5NjE4MDgzNjYxNDE0NC81MjI0ODc5MjU1MTkxNTUyL2Zha2UtemRNeklhZ1RTYl9PN3RXY2pXbkhVQT09"}, {"file_id": 4943404278480896, "filename": "banner_old.jpg", "file_path": "/api/files/encoded_gs_file%3AdHJhY2tpbmctYXBpL3YxL2FjY291bnRzLzU2Mjk0OTk1MzQyMTMxMjAvdGFza3MvNDk5NjE4MDgzNjYxNDE0NC80OTQzNDA0Mjc4NDgwODk2L2Zha2UtcmJjbDBVdVFzVmZkMjRtRUV2ME1xZz09"}]';
+// var files = JSON.parse(str);
+
+// var details = files.map((singleFile) => {
+// return (
+//   <div>
+//     <p>{singleFile.filename}</p>
+//     <p>{singleFile.file_path}</p>
+//   </div>
+//   );
+// });
+
+// console.log(details);
 
 // var str = '{"title":"When one door closes another door opens."}';
 // var result = str.replace('"title','').replace('{','').replace('}','').replace('"','').replace(':','');

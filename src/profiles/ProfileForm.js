@@ -7,6 +7,7 @@ import UserContext from "../auth/UserContext";
 import { Container, Row, Col } from "reactstrap";
 // import '../RandomQuote/RandomQuote.css';
 
+
 // eslint-disable-next-line
 import useTimedMessage from "../hooks/useTimedMessage";
 
@@ -24,7 +25,7 @@ import useTimedMessage from "../hooks/useTimedMessage";
  * Routes -> ProfileForm -> Alert
  */
 
-function ProfileForm({ id, title, authorName }) {
+function ProfileForm({ id, title, authorName, likedquotes }) {
   const { currentUser, setCurrentUser } = useContext(UserContext);
 
   const [formData, setFormData] = useState({
@@ -116,7 +117,8 @@ function ProfileForm({ id, title, authorName }) {
         <Col>
         <div className="thoughtBubble-profile">
         {/* <h3 className="profile-title">My Favorite Quotes</h3> */}
-        <h3 className="username-favorite">{formData.firstName}'s Favorite Quotes</h3>
+        <h3 className="username-favorite">{formData.firstName || formData.username}'s Favorite Quotes</h3>
+        {/* <h3 className="username-favorite">{currentUser.firstName || currentUser.username}'s Favorite Quotes</h3> */}
           <ProfileLikes />
         </div>
         </Col>
