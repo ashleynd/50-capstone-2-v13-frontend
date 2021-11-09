@@ -44,7 +44,7 @@ function QuoteCard({ id, title, authorName }) {
       <div className="author-card"> {isLiked}
           <h6 className="quote-txt">"{title}"</h6>
           <p><small>{authorName}</small></p>
-          <button className={isLiked ? 'Mode-like' : 'Mode-unlike'} onClick={handleLike}>{isLiked ? "Added to Favorites ❤️✅" : "Add to Favorites ❤️"}</button>
+          <button className={isLiked ? 'Mode-like' : 'Mode-unlike'} onClick={handleLike}>{isLiked ? "Added to Favorites ✅" : "Add to Favorites ❤️"}</button>
         </div>
           {/* </Col>
           </Row>

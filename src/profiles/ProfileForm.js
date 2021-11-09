@@ -116,7 +116,6 @@ function ProfileForm({ id, title, authorName, likedquotes }) {
         <Row xs="2">
         <Col>
         <div className="thoughtBubble-profile">
-        {/* <h3 className="profile-title">My Favorite Quotes</h3> */}
         <h3 className="username-favorite">{formData.firstName || formData.username}'s Favorite Quotes</h3>
         {/* <h3 className="username-favorite">{currentUser.firstName || currentUser.username}'s Favorite Quotes</h3> */}
           <ProfileLikes />
