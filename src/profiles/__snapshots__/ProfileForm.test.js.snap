@@ -6,87 +6,115 @@ exports[`matches snapshot 1`] = `
     class="profile-col-md-6 col-lg-4 offset-md-3 offset-lg-4"
   >
     <div
-      class="profile-card"
+      class="container"
     >
-      <h3
-        class="profile-title"
-      >
-        Profile
-      </h3>
       <div
-        class="profile-card-body"
+        class="row row-cols-2"
       >
-        <form>
+        <div
+          class="col"
+        >
           <div
-            class="profile-form-group"
+            class="thoughtBubble-profile"
           >
-            <label>
-              Username
-            </label>
-            <p
-              class="profile-form-control-plaintext"
+            <h3
+              class="username-favorite"
             >
-              testuser
-            </p>
+              testuser's Favorite Quotes
+            </h3>
+            <div>
+              <ul />
+            </div>
           </div>
+        </div>
+        <div
+          class="col"
+        >
           <div
-            class="profile-form-group"
+            class="profile-card"
           >
-            <label>
-              First Name
-            </label>
-            <br />
-            <input
-              class="profile-form-control"
-              name="firstName"
-              value=""
-            />
+            <h3
+              class="profile-title"
+            >
+              Profile
+            </h3>
+            <div
+              class="profile-card-body"
+            >
+              <form>
+                <div
+                  class="profile-form-group"
+                >
+                  <label>
+                    Username
+                  </label>
+                  <p
+                    class="profile-form-control-plaintext"
+                  >
+                    testuser
+                  </p>
+                </div>
+                <div
+                  class="profile-form-group"
+                >
+                  <label>
+                    First Name
+                  </label>
+                  <br />
+                  <input
+                    class="profile-form-control"
+                    name="firstName"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="profile-form-group"
+                >
+                  <label>
+                    Last Name
+                  </label>
+                  <br />
+                  <input
+                    class="profile-form-control"
+                    name="lastName"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="profile-form-group"
+                >
+                  <label>
+                    Email
+                  </label>
+                  <br />
+                  <input
+                    class="profile-form-control"
+                    name="email"
+                    value="test@test.net"
+                  />
+                </div>
+                <div
+                  class="profile-form-group"
+                >
+                  <label>
+                    Confirm password to make changes:
+                  </label>
+                  <input
+                    class="profile-form-control"
+                    name="password"
+                    type="password"
+                    value=""
+                  />
+                </div>
+                <button
+                  class="profile-btn btn-primary btn-block mt-4"
+                >
+                  Save Changes
+                </button>
+              </form>
+            </div>
           </div>
-          <div
-            class="profile-form-group"
-          >
-            <label>
-              Last Name
-            </label>
-            <br />
-            <input
-              class="profile-form-control"
-              name="lastName"
-              value=""
-            />
-          </div>
-          <div
-            class="profile-form-group"
-          >
-            <label>
-              Email
-            </label>
-            <br />
-            <input
-              class="profile-form-control"
-              name="email"
-              value="test@test.net"
-            />
-          </div>
-          <div
-            class="profile-form-group"
-          >
-            <label>
-              Confirm password to make changes:
-            </label>
-            <input
-              class="profile-form-control"
-              name="password"
-              type="password"
-              value=""
-            />
-          </div>
-          <button
-            class="profile-btn btn-primary btn-block mt-4"
-          >
-            Save Changes
-          </button>
-        </form>
+        </div>
       </div>
     </div>
   </div>

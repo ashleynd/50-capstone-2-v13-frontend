@@ -14,20 +14,16 @@ import './ProfileForm.css';
  * Routes -> LikeDetail -> QuoteCardList
  */
 
-
 function ProfileLikes() {
   const { currentUser } = useContext(UserContext);
   const { username } = currentUser;
-  // console.log(username);
-  // console.debug("LikedDetail", "currentUser=", currentUser);
+
 
   const [likedquotes, seeLike] = useState([]);
 
   useEffect(function getLikedQuoteAndQuotesForUser() {
     async function getLikedQuote(username) {
-      // console.log(username);
       let x = await QuotableApi.getLikedQuote(username);
-      // console.log(x[0].title);
       seeLike((old) => [...old, ...x]);
     }
     getLikedQuote(username);
@@ -35,11 +31,6 @@ function ProfileLikes() {
   
   if (!likedquotes) return <LoadingSpinner />;
   console.log(likedquotes);
-
-  // const makeLike = likedQuote => likedQuote;
-  // const likedQuoteArray = [likedquote];
-  // const likedArray = likedQuoteArray.map(makeLike);
-  // console.log(likedArray[0]);
 
     return (
       <div>
