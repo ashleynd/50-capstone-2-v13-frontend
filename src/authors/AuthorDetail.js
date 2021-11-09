@@ -30,7 +30,7 @@ function AuthorDetail() {
 
   return (
       <div className="AuthorDetail col-md-8 offset-md-2">
-        <h4>{author.name}</h4>
+        <h2>{author.name}</h2>
         <p>{author.description}</p>
         <QuoteCardList quotes={author.quotes} />
       </div>

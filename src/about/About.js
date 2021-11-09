@@ -1,13 +1,15 @@
 import React from "react";
 import './About.css';
+import headshot from './headshot.png';
 
 const About = () => {
 
   return (
     <div className="App">
         <h1>
-            About
+        About<img src={headshot} alt="headshot" className="headshot" />
         </h1>
+        {/* <img src={headshot} alt="headshot" className="headshot" /> */}
         <div className="thoughtBubble-about">
         <div className="about-paragraph">
         <p>
