@@ -17,7 +17,7 @@ class QuotableApi {
   static async request(endpoint, data = {}, method = "get") {
     console.debug("API Call:", endpoint, data, method);
 
-    const url = `${BASE_URL}${endpoint}`;
+    const url = `${BASE_URL}/${endpoint}`;
     const headers = { Authorization: `Bearer ${QuotableApi.token}` };
     const params = (method === "get")
         ? data
