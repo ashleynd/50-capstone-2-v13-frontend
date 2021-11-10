@@ -16,49 +16,27 @@ exports[`matches snapshot 1`] = `
       <p
         class="lead"
       >
-        Join or login to view and like more famous quotes, and post your own quotes.
+        Browse or favorite famous quotes from over 100 authors, or post your own quotes.
       </p>
       <h2>
-        Welcome Back, testuser!
+        Welcome testuser!
       </h2>
       <div
         class="listofquotes"
         style="display: flex; flex-wrap: wrap;"
       >
-        <div>
-          Loading...
-        </div>
-      </div>
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`matches snapshot when logged out 1`] = `
-<DocumentFragment>
-  <div
-    class="App"
-  >
-    <div
-      class="container text-center"
-    >
-      <h1
-        class="headline"
-      >
-        Quotable
-      </h1>
-      <p
-        class="lead"
-      >
-        Join or login to view and like more famous quotes, and post your own quotes.
-      </p>
-      <p />
-      <div
-        class="listofquotes"
-        style="display: flex; flex-wrap: wrap;"
-      >
-        <div>
-          Loading...
+        <div
+          class="loading"
+        >
+          <div
+            class="LoadingSpinner"
+          >
+            <img
+              alt="spinner"
+              src="spinner.gif"
+              width="150px"
+            />
+          </div>
         </div>
       </div>
     </div>

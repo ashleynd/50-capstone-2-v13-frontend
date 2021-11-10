@@ -13,3 +13,17 @@ exports[`matches snapshot 1`] = `
   </div>
 </DocumentFragment>
 `;
+
+exports[`matches snapshot with no quotes 1`] = `
+<DocumentFragment>
+  <div
+    class="LoadingSpinner"
+  >
+    <img
+      alt="spinner"
+      src="spinner.gif"
+      width="150px"
+    />
+  </div>
+</DocumentFragment>
+`;

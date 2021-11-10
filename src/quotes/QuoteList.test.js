@@ -10,3 +10,4 @@ it("matches snapshot with no quotes", function() {
   const { asFragment } = render(<Quotes />);
   expect(asFragment()).toMatchSnapshot();
 });
+

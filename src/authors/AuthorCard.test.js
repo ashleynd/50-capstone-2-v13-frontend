@@ -29,3 +29,4 @@ it("matches snapshot without logo", function () {
   );
   expect(asFragment()).toMatchSnapshot();
 });
+

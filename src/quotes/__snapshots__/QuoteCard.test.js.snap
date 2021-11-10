@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="author-card-list"
+  >
+    <div
+      class="author-card"
+    >
+       
+      <h6
+        class="quote-txt"
+      >
+        ""
+      </h6>
+      <p>
+        <small />
+      </p>
+      <button
+        class="Mode-unlike"
+      >
+        Add to Favorites ❤️
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
