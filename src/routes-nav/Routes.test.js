@@ -14,13 +14,4 @@ it("renders without crashing", function () {
   );
 });
 
-it("matches snapshot", function () {
-  const { asFragment } = render(
-      <MemoryRouter>
-        <UserProvider>
-          <Routes />
-        </UserProvider>
-      </MemoryRouter>,
-  );
-  expect(asFragment()).toMatchSnapshot();
-});
+

@@ -6,7 +6,3 @@ it("renders without crashing", function() {
   render(<SearchForm />);
 });
 
-it("matches snapshot", function () {
-  const { asFragment } = render(<SearchForm />);
-  expect(asFragment()).toMatchSnapshot();
-});
