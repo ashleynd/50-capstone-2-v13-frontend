@@ -17,7 +17,7 @@ function Navigation({ logout }) {
 
   function loggedInNav() {
     return (
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav">
           <li className="nav-item mr-4">
             <NavLink className="nav-link-logged-in" to="/famousquotes">
               Famous Quotes
@@ -64,7 +64,7 @@ function Navigation({ logout }) {
 
   function loggedOutNav() {
     return (
-        <ul className="navbar-nav">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item-logged-out">
             <NavLink className="nav-link" to="/quoteoftheday">
               Quote of The Day

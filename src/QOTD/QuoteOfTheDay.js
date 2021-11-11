@@ -32,11 +32,6 @@ const QuoteOfTheDay = () => {
     //   return fd;
     // }
     
-    // var x = changeDate(date);
-    // function changeDate(x){
-    //   let formatdate = date.moment('20010704T120854').format('MMMM Do YYYY')
-    //   return formatdate;
-    // }
     
   // console.log(date.toLocaleString('en-US', {
   //   day: 'numeric',
