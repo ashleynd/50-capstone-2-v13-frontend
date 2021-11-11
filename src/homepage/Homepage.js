@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Homepage.css";
 import UserContext from "../auth/UserContext";
 // import RandomQuote from "../RandomQuote/RandomQuote";
@@ -21,24 +21,24 @@ function Homepage() {
   return (
       <div className="App">
         <div className="container text-center">
-          <h1 className="headline">Quotable</h1>
+          <h1 className="headline"><span role="img" aria-label="cloud">💭</span>Quotable</h1>
           {/* <p className="lead">Browse quotes from popular authors.</p> */}
           <p className="lead">Browse or favorite famous quotes from over 100 authors, or post your own quotes.</p>
           {currentUser
               ? <h2>
-                Welcome {currentUser.firstName || currentUser.username}!
+                <span role="img" aria-label="handwave">👋🏻</span>Welcome, {currentUser.firstName || currentUser.username}!
                 {/* <RandomQuote /> */}
               </h2>
               : (
                 <p>
-                    {/* <Link className="btn btn-primary font-weight-bold mr-3"
+                    <Link className="home-btn"
                           to="/login">
                       Log in
                     </Link>
-                    <Link className="btn btn-primary font-weight-bold"
+                    <Link className="home-btn"
                           to="/signup">
                       Sign up
-                    </Link> */}
+                    </Link>
                   </p>
               )}
               <div className="listofquotes" style={{ display: "flex", flexWrap: "wrap" }}>

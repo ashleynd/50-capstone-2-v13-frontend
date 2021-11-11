@@ -55,7 +55,7 @@ function Navigation({ logout }) {
           </li>
           <li className="nav-item">
             <Link className="nav-link-logged-in" to="/" onClick={logout}>
-              Log out {currentUser.first_name || currentUser.username}
+            <span role="img" aria-label="arrow">⬅️</span>Log out {currentUser.first_name || currentUser.username}
             </Link>
           </li>
         </ul>
@@ -75,7 +75,7 @@ function Navigation({ logout }) {
               About
             </NavLink>
           </li>
-          <li className="nav-item-logged-out">
+          {/* <li className="nav-item-logged-out">
             <NavLink className="nav-link" to="/login">
               Login
             </NavLink>
@@ -84,7 +84,7 @@ function Navigation({ logout }) {
             <NavLink className="nav-link" to="/signup">
               Sign Up
             </NavLink>
-          </li>
+          </li> */}
         </ul>
     );
   }
@@ -92,7 +92,7 @@ function Navigation({ logout }) {
   return (
       <nav className="Navigation navbar navbar-expand-md">
         <Link className="navbar-brand" to="/">
-          Quotable
+          <span role="img" aria-label="cloud">💭</span>Quotable
         </Link>
         {currentUser ? loggedInNav() : loggedOutNav()}
       </nav>

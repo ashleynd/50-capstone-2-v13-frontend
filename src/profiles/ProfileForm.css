@@ -24,6 +24,7 @@
 
 .profile-btn {
     font-size: large;
+    transition: 0.3s;
 }
 
 .profile-form-control {
@@ -71,12 +72,12 @@
 	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
 } */
 
-.favorite-list {
-    text-decoration: none;
-    margin: 15px;
-}
 
 ul
 {
     list-style-type: none;
+}
+
+.favorite-quote {
+    margin: 15px;
 }

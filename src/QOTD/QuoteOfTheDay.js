@@ -43,7 +43,7 @@ const QuoteOfTheDay = () => {
 
   return (
     <div className="App">
-          <h1>{title}</h1>
+          <h1><span role="img" aria-label="calendar">📅</span>{title}</h1>
           <h4>for {date}</h4>
           {/* <h4>for {x}</h4> */}
         <div className="thoughtBubble">

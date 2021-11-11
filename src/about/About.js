@@ -7,9 +7,8 @@ const About = () => {
   return (
     <div className="App">
         <h1 className="about-title">
-        About<img src={headshot} alt="headshot" className="headshot" />
+        <span role="img" aria-label="tech">👩🏻‍💻</span>About<img src={headshot} alt="headshot" className="headshot" />
         </h1>
-        {/* <img src={headshot} alt="headshot" className="headshot" /> */}
         <div className="thoughtBubble-about">
         <div className="about-paragraph">
         <p>

@@ -36,7 +36,8 @@ function ProfileLikes() {
       <div>
           <ul>
          {likedquotes.map((likedquote) => (
-           <li>"{likedquote.title}"</li>
+          //  <li className="favorite-quote">"{likedquote.title}"</li>
+           <li className="favorite-quote"><span role="img" aria-label="cloud">💭</span> "{likedquote.title}"</li>
          ))}
           </ul>
         </div>
