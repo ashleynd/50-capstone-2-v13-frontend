@@ -6,7 +6,7 @@ import LoadingSpinner from "../common/LoadingSpinner";
 import './MainQuoteList.css';
 
 const MainQuoteList = () => {
-  const data = useFetch("https://zenquotes.io/api/quotes/");
+  const data = useFetch("https://zenquotes.io/api/quotes/")
   if (data.isLoading) {
     // return <div>Loading...</div>;
     return <div className="loading"><LoadingSpinner /></div>;
