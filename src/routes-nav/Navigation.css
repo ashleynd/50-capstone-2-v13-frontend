@@ -21,7 +21,7 @@
   font-size: 16px;
   text-align: center;
   /* position:absolute; */
-  top: 13px;
+  top: 14px;
   transition: 0.3s;
 }
 .nav-link-logged-in:hover {
@@ -45,7 +45,8 @@
   /* font-weight: bolder; */
 }
 .navbar-brand {
-  font-size: 19px;
+  font-size: 17px;
+  font-weight: bold;
   text-align: center;
   position:absolute;
   top: 17px;

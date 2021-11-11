@@ -66,7 +66,6 @@ class QuotableApi {
 
   static async LikedQuote(username, id) {
     await this.request(`users/${username}/quotes/${id}`, {}, "post");
-    // console.log(this.LikedQuote)
   }
 
   /** Return a liked quote */
@@ -76,7 +75,6 @@ class QuotableApi {
   //   return res.username;
   // }
   static async getLikedQuote(username) {
-    // console.log(username);
     // let res = await this.request(`users/${username}/likedquotes`, {}, "get");
     let res = await this.request(`users/${username}/likedquotes`, { username });
     return res.userLikes;

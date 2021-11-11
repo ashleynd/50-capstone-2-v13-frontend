@@ -30,7 +30,6 @@ function ProfileLikes() {
   }, [username]);
   
   if (!likedquotes) return <LoadingSpinner />;
-  console.log(likedquotes);
 
     return (
       <div>

@@ -97,18 +97,6 @@ function ProfileForm({ id, title, authorName, likedquotes }) {
     setFormErrors([]);
   }
 
-  // React.useEffect(function updateLikedStatus() {
-  //   console.debug("QuoteCard useEffect updateLikedStatus", "id=", id);
-  //   setisLiked(hasLikedAQuote(id));
-  // }, [id, hasLikedAQuote]);
-
-  // /** Like a quote */
-  // async function handleLike(evt) {
-  //   if (hasLikedAQuote(id)) return;
-  //   setisLiked(true);
-  //   seeLikedQuote(id);
-  //   console.log(seeLikedQuote)
-  // }
 
   return (
       <div className="profile-col-md-6 col-lg-4 offset-md-3 offset-lg-4">

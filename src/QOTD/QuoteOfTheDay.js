@@ -13,10 +13,7 @@ const QuoteOfTheDay = () => {
     }
     
     const quote = data.response;
-    console.log(quote.contents.quotes[0])
-    //   console.log(quote.contents.quotes[0].title)
-    //   console.log(quote.contents.quotes[0].quote)
-    //   console.log(quote.contents.quotes[0].author)
+
     
     const title = quote.contents.quotes[0].title;
     const quoteOfTheDay = quote.contents.quotes[0].quote;
@@ -32,13 +29,7 @@ const QuoteOfTheDay = () => {
     //   return fd;
     // }
     
-    
-  // console.log(date.toLocaleString('en-US', {
-  //   day: 'numeric',
-  //   year: 'numeric',
-  //   month: 'long',
-  // }));
-  // const permalink = quote.contents.quotes[0].permalink;
+  
   // https://momentjs.com/
 
   return (

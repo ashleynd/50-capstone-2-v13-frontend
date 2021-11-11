@@ -13,12 +13,9 @@ const RandomQuote = () =>  {
     return <div>Sorry, something went wrong :(</div>
   }
 
-  const randomQuoteData = data.response[0];
-  console.log(randomQuoteData)
+  // const randomQuoteData = data.response[0];
   const randomQuote = data.response[0].q;
-  // console.log(randomQuote)
   const randomQuoteAuthor = data.response[0].a;
-  // console.log(randomQuoteAuthor)
 
 
   

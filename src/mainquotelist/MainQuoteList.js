@@ -5,19 +5,18 @@ import { Container, Row, Col } from "reactstrap";
 import LoadingSpinner from "../common/LoadingSpinner";
 import './MainQuoteList.css';
 
+
 const MainQuoteList = () => {
-  const data = useFetch("https://zenquotes.io/api/quotes/")
+  const data = useFetch("https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/quotes/");
   if (data.isLoading) {
     // return <div>Loading...</div>;
     return <div className="loading"><LoadingSpinner /></div>;
   }
   if (data.error) {
     return <div>Sorry, something went wrong :(</div>
-  }
+    }
 
   const quote = data.response;
-  // console.log(quote[0].q)
-  // console.log(quote[0].a)
   const quotezero = quote[0].q;
   const authorzero = quote[0].a;
   const quoteone = quote[1].q;

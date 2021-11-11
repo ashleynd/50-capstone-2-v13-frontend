@@ -13,7 +13,7 @@ const About = () => {
         <div className="about-paragraph">
         <p>
             Quotable is my final of two capstone projects I developed with Springboard's Software Engineering Bootcamp. 
-            Built with React, Node.js and deployed with Heroku, it's meant to browse famous quotes, add favorite quotes, search for certain quotes and authors, 
+            Built with PostgreSQL, Express.js, React, Node.js and deployed with Heroku, it's meant to browse famous quotes, add favorite quotes, search for certain quotes and authors, 
             and even post your own quotes.
         </p>
         <p>
