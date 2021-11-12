@@ -15,7 +15,7 @@ import LoadingSpinner from "../common/LoadingSpinner";
 
 function AuthorDetail() {
   const { handle } = useParams();
-  console.debug("AuthorDetail", "handle=", handle);
+  // console.debug("AuthorDetail", "handle=", handle);
 
   const [author, setAuthor] = useState(null);
 

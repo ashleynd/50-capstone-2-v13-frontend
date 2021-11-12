@@ -15,12 +15,12 @@ import LoadingSpinner from "../common/LoadingSpinner";
  */
 
 function QuoteList() {
-  console.debug("QuoteList");
+  // console.debug("QuoteList");
 
   const [quotes, setQuotes] = useState(null);
 
   useEffect(function getAllQuotesOnMount() {
-    console.debug("QuoteList useEffect getAllQuotesOnMount");
+    // console.debug("QuoteList useEffect getAllQuotesOnMount");
     search();
   }, []);
 

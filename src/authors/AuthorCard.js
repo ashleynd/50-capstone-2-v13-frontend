@@ -11,7 +11,7 @@ import "./AuthorCard.css";
  */
 
 function AuthorCard({ name, description, logoUrl, handle }) {
-  console.debug("AuthorCard");
+  // console.debug("AuthorCard");
 
   return (
       <Link className="AuthorCard-authors card" to={`/authors/${handle}`}>

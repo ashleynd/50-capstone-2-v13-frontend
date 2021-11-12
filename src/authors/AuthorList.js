@@ -16,12 +16,12 @@ import './AuthorList.css';
  */
 
 function AuthorList() {
-  console.debug("AuthorList");
+  // console.debug("AuthorList");
 
   const [authors, setAuthors] = useState(null);
 
   useEffect(function getAuthorsOnMount() {
-    console.debug("AuthorList useEffect getAuthorsOnMount");
+    // console.debug("AuthorList useEffect getAuthorsOnMount");
     search();
   }, []);
 

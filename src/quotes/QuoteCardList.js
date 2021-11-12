@@ -14,7 +14,7 @@ import "./QuoteCardList.css";
  */
 
 function QuoteCardList({ quotes, isLiked }) {
-  console.debug("QuoteCardList", "quotes=", quotes);
+  // console.debug("QuoteCardList", "quotes=", quotes);
 
   return (
           <Container className="container">

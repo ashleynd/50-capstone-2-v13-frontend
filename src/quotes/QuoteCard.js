@@ -16,14 +16,14 @@ import UserContext from "../auth/UserContext";
 
 
 function QuoteCard({ id, title, authorName }) {
-  console.debug("QuoteCard");
+  // console.debug("QuoteCard");
 
 
   const { hasLikedAQuote, LikedQuote } = useContext(UserContext);
   const [isLiked, setisLiked] = useState(true);
 
   React.useEffect(function updateLikedStatus() {
-    console.debug("QuoteCard useEffect updateLikedStatus", "id=", id);
+    // console.debug("QuoteCard useEffect updateLikedStatus", "id=", id);
     setisLiked(hasLikedAQuote(id));
   }, [id, hasLikedAQuote]);
 

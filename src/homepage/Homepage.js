@@ -16,7 +16,7 @@ import MainQuoteList from "../mainquotelist/MainQuoteList";
 
 function Homepage() {
   const { currentUser } = useContext(UserContext);
-  console.debug("Homepage", "currentUser=", currentUser);
+  // console.debug("Homepage", "currentUser=", currentUser);
 
   return (
       <div className="App">

@@ -22,11 +22,11 @@ import MainQuoteList from "../mainquotelist/MainQuoteList";
  */
 
 function Routes({ login, signup }) {
-  console.debug(
-      "Routes",
-      `login=${typeof login}`,
-      `register=${typeof register}`,
-  );
+  // console.debug(
+  //     "Routes",
+  //     `login=${typeof login}`,
+  //     `register=${typeof register}`,
+  // );
 
   return (
       <div className="pt-5">

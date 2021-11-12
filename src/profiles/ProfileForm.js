@@ -41,14 +41,14 @@ function ProfileForm({ id, title, authorName, likedquotes }) {
   const [saveConfirmed, setSaveConfirmed] = useState(false);
   // const [saveConfirmed, setSaveConfirmed] = useTimedMessage()
 
-  console.debug(
-      "QuoteCard",
-      "ProfileForm",
-      "currentUser=", currentUser,
-      "formData=", formData,
-      "formErrors=", formErrors,
-      "saveConfirmed=", saveConfirmed,
-  );
+  // console.debug(
+  //     "QuoteCard",
+  //     "ProfileForm",
+  //     "currentUser=", currentUser,
+  //     "formData=", formData,
+  //     "formErrors=", formErrors,
+  //     "saveConfirmed=", saveConfirmed,
+  // );
 
   /** on form submit:
    * - attempt save to backend & report any errors
