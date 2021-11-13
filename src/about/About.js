@@ -18,8 +18,8 @@ const About = () => {
         </p>
         <p>
             Quotable is using 2 APIs:
-            <form action="https://quotes.rest/" target="_blank">
-                <input className="about-btn" type="submit" value="They Said So Quotes® API ➡️" />
+            <form action="https://goquotes.docs.apiary.io/#" target="_blank">
+                <input className="about-btn" type="submit" value="Go Quotes API ➡️" />
             </form>
             <form action="https://zenquotes.io/" target="_blank">
                 <input className="about-btn" type="submit" value="Zen Quotes API ➡️" />

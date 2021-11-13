@@ -25,11 +25,11 @@
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     width: 285px;
     position: relative;
-    margin-left: -100px;
+    margin-left: -105px;
     margin-top: 8px;
     margin-bottom: 5px;
     padding: 30px;
-    border-radius: 60px;
+    border-radius: 70px;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
 }
 

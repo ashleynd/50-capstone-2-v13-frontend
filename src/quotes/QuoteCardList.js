@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+// import { Container, Row, Col } from "reactstrap";
 import QuoteCard from "./QuoteCard";
 import "./QuoteCardList.css";
 
@@ -17,9 +17,6 @@ function QuoteCardList({ quotes, isLiked }) {
   // console.debug("QuoteCardList", "quotes=", quotes);
 
   return (
-          <Container className="container">
-          <Row xs={1} md={3} className="row">
-           <Col className="j-column">
       <div className="QuoteCardList">
         {quotes.map(quote => (
             <QuoteCard
@@ -32,9 +29,6 @@ function QuoteCardList({ quotes, isLiked }) {
             />
             ))}
       </div>
-            </Col>
-           </Row>
-             </Container>
   );
 }
 

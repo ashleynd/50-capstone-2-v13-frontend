@@ -32,7 +32,7 @@
   border-radius: 5px;
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to top, #dfe9f3 0%, white 100%);
-}
+} 
 
 .author-card-list {
   margin-top: 130px;
@@ -43,3 +43,32 @@
 .quote-txt {
   font-size: 1.7rem;
 }
+
+.searchbar-quotes {
+  margin-bottom: 10px;
+}
+
+/* .thoughtBubble3 {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  width: 285px;
+  /* position: relative; */
+  /* margin-left: -105px; */
+  /* margin-top: 8px; */
+  /* margin-bottom: 5px; */
+  /* padding: 30px; */
+  /* border-radius: 70px; */
+  /* box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); */
+/* } */
+
+/* .thoughtBubble3:before {
+content: '';
+position: absolute;
+width: 0;
+height: 0;
+bottom: 100%;
+left: 4.5em;
+border: .75rem solid transparent;
+border-top: none;
+border-bottom-color: #eff1f7;
+filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+} */

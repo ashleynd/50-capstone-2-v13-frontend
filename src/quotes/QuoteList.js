@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Search from "../common/SearchForm";
 import QuotableApi from "../api/api";
 import QuoteCardList from "./QuoteCardList";
+import "./QuoteCard.css";
 import LoadingSpinner from "../common/LoadingSpinner";
 
 /** Show page with list of quotes.
@@ -34,7 +35,7 @@ function QuoteList() {
 
   return (
     <div className="QuoteList col-md-8 offset-md-2">
-      <div className="searchbar">
+      <div className="searchbar-quotes">
         <Search searchFor={search} />
       </div>
         {quotes.length

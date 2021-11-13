@@ -42,7 +42,7 @@
     /* background-color: #7c55ff; */
     /* border: 2px solid #744aff; */
     /* border-radius: 5px; */
-    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .source-btn:hover {

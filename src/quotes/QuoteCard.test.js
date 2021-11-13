@@ -5,7 +5,7 @@ import { UserProvider } from "../testUtils";
 
 
 it("matches snapshot", function () {
-  let item = { title: "CEO", salary: 1000000, equity: 10 };
+  let item = { title: "CEO", salary: 0, equity: 0 };
   const { asFragment } = render(
       <UserProvider>
         <QuoteCard item={item} />
