@@ -11,9 +11,12 @@ class Routes extends Component {
     super(props);
     this.state = {
       communityquotes: JSON.parse(localStorage.getItem("communityquotes")) || {
-        red: "#FF0000",
-        green: "#00FF00",
-        blue: "#0000FF"
+        "Don't cry because it's over. Smile because it happened. -Dr. Seuss": "#FF0000",
+        "If anything is worth doing, do it with all your heart. -Buddha": "#00FF00",
+        "In the end, it's not the years in your life that count. It's the life in your years. --Abraham Lincoln": "#0000FF"
+        // red: "#FF0000",
+        // blue: "#00FF00",
+        // green: "#0000FF"
       }
     };
 

@@ -4,6 +4,7 @@ import "./Homepage.css";
 import UserContext from "../auth/UserContext";
 // import RandomQuote from "../RandomQuote/RandomQuote";
 import MainQuoteList from "../mainquotelist/MainQuoteList";
+// import MainQuoteList2 from "../mainquotelist/MainQuoteList2";
 
 /** Homepage of site.
  *
