@@ -17,15 +17,18 @@ const About = () => {
             and even post your own quotes.
         </p>
         <p>
-            Quotable is using 2 APIs:
+            Quotable's API:
             {/* <form action="https://goquotes.docs.apiary.io/#" target="_blank">
                 <input className="about-btn" type="submit" value="Go Quotes API ➡️" />
             </form> */}
-            <form action="https://zenquotes.io/" target="_blank">
+            {/* <form action="https://zenquotes.io/" target="_blank">
                 <input className="about-btn" type="submit" value="Zen Quotes API ➡️" />
-            </form>
-            <form action="https://opensourcelibs.com/lib/quotable#list-quotes" target="_blank">
+            </form> */}
+            {/* <form action="https://opensourcelibs.com/lib/quotable#list-quotes" target="_blank">
                 <input className="about-btn" type="submit" value="Quotable API ➡️" />
+            </form> */}
+            <form action="https://theysaidso.com/#" target="_blank">
+                <input className="about-btn" type="submit" value="They Said So® API ➡️" />
             </form>
         </p>
         </div>

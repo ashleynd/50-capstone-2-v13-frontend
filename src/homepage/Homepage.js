@@ -24,7 +24,7 @@ function Homepage() {
         <div className="container text-center">
           <h1 className="headline"><span role="img" aria-label="cloud">💭</span>Quotable</h1>
           {/* <p className="lead">Browse quotes from popular authors.</p> */}
-          <p className="lead">Browse or favorite famous quotes from over 100 authors, or post your own quotes.</p>
+          <p className="lead">Login to browse or favorite more famous quotes from over 100 authors, or post your own quotes.</p>
           {currentUser
               ? <h2>
                 <span role="img" aria-label="handwave">👋🏻</span>Welcome, {currentUser.firstName || currentUser.username}!
