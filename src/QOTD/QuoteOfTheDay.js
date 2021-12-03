@@ -1,12 +1,14 @@
 import React from "react";
 import useFetch from "../hooks/useFetch";
 import '../RandomQuote/RandomQuote.css';
+import LoadingSpinner from "../common/LoadingSpinner";
 // import moment from 'moment';
 
 const QuoteOfTheDay = () => {
   const data = useFetch("https://quotes.rest/qod");
   if (data.isLoading) {
-    return <div>Loading...</div>;
+    return <div><LoadingSpinner /></div>;
+    // return <div>Loading...</div>;
   }
   if (data.error) {
     return <div>Sorry, something went wrong :(</div>
